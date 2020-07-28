@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+/*AUTO*/
+#bodywork__auto {
+  position: relative;
+  /*SIDE MENU*/ }
+  #bodywork__auto img {
+    max-width: 100%; }
+  #bodywork__auto svg {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    #bodywork__auto svg path {
+      fill: rgba(255, 255, 255, 0);
+      cursor: pointer; }
+      #bodywork__auto svg path:hover, #bodywork__auto svg path:focus {
+        fill: rgba(216, 210, 22, 0.38);
+        outline: unset; }
+      #bodywork__auto svg path.none, #bodywork__auto svg path.left, #bodywork__auto svg path.right {
+        fill: rgba(216, 210, 22, 0.75); }
+  #bodywork__auto #sideMenu {
+    display: none;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%); }
+    #bodywork__auto #sideMenu > div {
+      padding: 3px 8px;
+      color: #333;
+      background: #fff;
+      cursor: pointer; }
+      #bodywork__auto #sideMenu > div:hover {
+        padding: 3px 8px;
+        color: #fff;
+        background-color: #888; }
+  #bodywork__auto #infoBar {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 100;
+    padding: 3px 6px;
+    background: #666;
+    border-radius: 2px;
+    color: #fff;
+    display: none; }
+
+/*CART*/
+#bodywork__cart .glyphicon-remove {
+  color: #ce1717;
+  cursor: pointer; }
+#bodywork__cart .table tr td:nth-child(2),
+#bodywork__cart .table tr th:nth-child(2) {
+  text-align: center; }
+
+/*# sourceMappingURL=bodywork.css.map */

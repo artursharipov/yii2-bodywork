@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+/*AUTO*/
+#bodywork__auto{
+    position: relative;
+
+    img{
+        max-width: 100%;
+    }
+    svg{
+        position: absolute;
+        top:0;
+        left:0;
+
+        path{
+            fill: rgba(255, 255, 255, 0);
+            cursor: pointer;
+
+            &:hover,
+            &:focus{
+                fill: rgba(216, 210, 22, 0.38);
+                outline: unset;
+            }
+            &.none,
+            &.left,
+            &.right{
+                fill: rgba(216, 210, 22, 0.75);
+            }
+        }
+    }
+    /*SIDE MENU*/
+    #sideMenu{
+        display: none;
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+
+        &>div{
+            padding: 3px 8px;
+            color: #333;
+            background: #fff;
+            cursor: pointer;
+
+            &:hover{
+                padding: 3px 8px;
+                color: #fff;
+                background-color: #888 
+            }
+        }
+    }
+    #infoBar{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: 100;
+        padding: 3px 6px;
+        background: #666;
+        border-radius: 2px;
+        color: #fff;
+        display: none;
+    }
+}
+
+
+/*CART*/
+#bodywork__cart{
+    .glyphicon-remove{
+        color: #ce1717;
+        cursor: pointer;
+    }
+    .table tr td:nth-child(2),
+    .table tr th:nth-child(2){
+        text-align: center;
+    }
+}

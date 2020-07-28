@@ -1,4 +1,4 @@
 yii2-bodywork
 =================
 
-![](yii2-bodywork/example.png)
+![Image alt](https://github.com/artursharipov/yii2-bodywork/raw/master/example.jpg)
